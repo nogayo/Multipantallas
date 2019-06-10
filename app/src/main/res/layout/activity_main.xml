@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".MainActivity">
+
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="MultiPantallas"
+            android:id="@+id/textView2" tools:layout_editor_absoluteY="16dp" tools:layout_editor_absoluteX="167dp"/>
+    <TextView
+            android:layout_width="193dp"
+            android:layout_height="33dp"
+            android:text="Desarrollado por: usuario"
+            android:id="@+id/textView3" tools:layout_editor_absoluteY="650dp" tools:layout_editor_absoluteX="199dp"/>
+    <EditText
+            android:layout_width="219dp"
+            android:layout_height="wrap_content"
+            android:inputType="textPersonName"
+            android:ems="10"
+            android:id="@+id/editText"
+            tools:layout_editor_absoluteY="75dp" tools:layout_editor_absoluteX="37dp" android:hint="Ingrese Nombre"/>
+    <EditText
+            android:layout_width="219dp"
+            android:layout_height="wrap_content"
+            android:inputType="textPersonName"
+            android:ems="10"
+            android:id="@+id/editText2"
+            tools:layout_editor_absoluteY="151dp" tools:layout_editor_absoluteX="37dp" android:hint="Ingrese Nombre"/>
+    <EditText
+            android:layout_width="219dp"
+            android:layout_height="wrap_content"
+            android:inputType="textPersonName"
+            android:ems="10"
+            android:id="@+id/editText3"
+            tools:layout_editor_absoluteY="247dp" tools:layout_editor_absoluteX="37dp" android:hint="Ingrese Nombre"/>
+    <Button
+            android:text="Enviar"
+            android:layout_width="103dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/button"
+            android:onClick="lanzarPantalla" tools:layout_editor_absoluteY="75dp"
+            tools:layout_editor_absoluteX="289dp"/>
+    <Button
+            android:text="Enviar"
+            android:layout_width="103dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/button2"
+            android:onClick="lanzarPantalla" tools:layout_editor_absoluteY="148dp"
+            tools:layout_editor_absoluteX="289dp"/>
+    <Button
+            android:text="Enviar"
+            android:layout_width="103dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/button3"
+            android:onClick="lanzarPantalla" tools:layout_editor_absoluteY="244dp"
+            tools:layout_editor_absoluteX="289dp"/>
+
+</android.support.constraint.ConstraintLayout>
